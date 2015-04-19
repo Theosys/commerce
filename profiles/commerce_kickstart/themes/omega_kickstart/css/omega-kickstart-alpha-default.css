@@ -82,15 +82,16 @@
       .navigation .primary-menu ul li a,
       .navigation .second-menu ul li a {
         display: inline;
-        border-left-width: 0;
+        border-left: 1px solid;
         border-right-width: 0; }
         .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover,
         .navigation .second-menu ul li a.active,
         .navigation .second-menu ul li a:hover {
-          border-left-width: 0;
-          border-right-width: 0; }
+          /*border-left-width: 0;
+          border-right-width: 0; */}
       .navigation .primary-menu ul li.first a,
       .navigation .second-menu ul li.first a {
+        border-left: 0px;
         /*border-left: 1px solid #cccccc;
         /* LTR */ }
       .navigation .primary-menu ul li.last a,

@@ -203,6 +203,11 @@ select {
     clear: none;
     float: none; }
 
+.page{
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
 /**************************************************
 * --
 * 2. Section header
@@ -374,23 +379,39 @@ select {
 * 2.2. Zone branding
 **********************************************/
 .zone-branding .region-branding {
-  margin: 50px 0 15px 0; }
+  /*margin: 50px 0 15px 0; */
+  }
   .zone-branding .region-branding .logo-img {
     float: none;
     margin: 10px 0;
     text-align: center; 
-    max-width: 30%;/*para reducir la imagen del logo*/}
+    max-width: 100%;/*para reducir la imagen del logo*/}
+#zone-header-wrapper{
+  float: right;
+  width: 200px;
+}
 #section-header{
-  margin-top: 30px;
   background:url('../images/fondo 2.png') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;); 
-  margin-right: 50px;
-  margin-left: 50px;  }  
-
-
+  overflow: hidden;}  
+#zone-branding{
+  width: 20%;
+  float: left;
+}
+#zone-menu-wrapper{
+  width: 60%;
+  float: left;
+  height: 220px
+}
+#region-branding{
+  width: 100%
+}
+#zone-menu{
+  padding-top: 125px;
+}
 /**
 * Search block
 */
@@ -540,12 +561,12 @@ select {
     color: #888888;
     text-transform: capitalize; }
     .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover {
-      background-color: white;
-      border: none; }
+      background-color: transparent;
+      border-color: #888888; }
     .navigation .primary-menu ul li a.active {
       color: black; }
     .navigation .primary-menu ul li a:hover {
-      color: #999999; }
+      color: #000000; }
   .navigation .second-menu {
     clear: left; }
     .navigation .second-menu ul li a {
@@ -600,7 +621,12 @@ select {
 **************************************************/
 .section-content {
   min-height: 500px;
-  height: 100%; }
+  height: 100%; 
+  background:url('../images/fondo 2.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .front .section-content {
   min-height: 100%; }
@@ -978,7 +1004,7 @@ select {
 * --
 **************************************************/
 .section-footer {
-  background-color: white; }
+  background-color: #006FFF; }
 
 /**********************************************
 * 4.1. Zone footer

@@ -206,6 +206,11 @@ select {
 .page{
   margin: 30px;
   margin-bottom: 0px;
+  background:url('../images/fondo 2.png') no-repeat ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;);
 }
 
 /**************************************************
@@ -391,11 +396,11 @@ select {
   width: 200px;
 }
 #section-header{
-  background:url('../images/fondo 2.png') no-repeat ;
+  /*background:url('../images/fondo 2.png') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;); 
+  background-size: cover;); */
   overflow: hidden;}  
 #zone-branding{
   width: 20%;
@@ -622,11 +627,11 @@ select {
 .section-content {
   min-height: 500px;
   height: 100%; 
-  background:url('../images/fondo 2.png') no-repeat;
+  /*background:url('../images/fondo 2.png') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; */}
 
 .front .section-content {
   min-height: 100%; }

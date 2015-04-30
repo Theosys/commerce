@@ -393,8 +393,8 @@ select {
     max-width: 100%;/*para reducir la imagen del logo*/}
 #zone-header-wrapper{
   float: right;
-  width: 200px;
-}
+  width: 25%  
+ }
 #section-header{
   /*background:url('../images/fondo 2.png') no-repeat ;
   -webkit-background-size: cover;
@@ -407,7 +407,7 @@ select {
   float: left;
 }
 #zone-menu-wrapper{
-  width: 60%;
+  width: 55%;
   float: left;
   height: 220px
 }
@@ -416,6 +416,10 @@ select {
 }
 #zone-menu{
   padding-top: 125px;
+}
+#widgets-element-socialmedia_profile-default div{
+  margin-left: 10px;
+  margin-top: 20px;
 }
 /**
 * Search block
